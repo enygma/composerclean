@@ -1,0 +1,24 @@
+
+{
+    "name":"enygma/composerclean",
+    "type":"library",
+    "description":"An additional command for Composer that removes configured files/directory",
+    "keywords":["composer","clean","deploy"],
+    "homepage":"https://github.com/enygma/composerclean.git",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Chris Cornutt",
+            "email":"ccornutt@phpdeveloper.org",
+            "homepage":"http://www.phpdeveloper.org/"
+        }
+    ],
+    "require":{
+        "php":">=5.3.1"
+    },
+    "autoload":{
+        "psr-0":{
+            "ComposerClean":"src/"
+        }
+    }
+}
