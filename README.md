@@ -5,7 +5,7 @@ With Composer being used often to build a package to deploy, it makes sense that
 
 ## Usage
 
-To use the package, you'll need two things. First, on your application you need to make the "clean" command avaialable. First, install the latest version of the `ComposerClean` package:
+To use the package, you'll need two things. First, on your application you need to make the "clean" command available. First, install the latest version of the `ComposerClean` package:
 
 ```
 composer require enygma/composerclean:dev-master
@@ -27,7 +27,7 @@ Then you can fire off the cleaning process with a call to:
 composer.phar clean
 ```
 
-This will go through your installed repositories and remove the items marked in the project's "clean" list. To define this list in your own project, you put the list of direcotries or files in the `composer.json` configuration in the `extras` section:
+This will go through your installed repositories and remove the items marked in the project's "clean" list. To define this list in your own project, you put the list of directories or files in the `composer.json` configuration in the `extras` section:
 
 ```
 {
