@@ -63,7 +63,9 @@ class Clean
 		}
 
 		// Finally, remove the path itself
-		rmdir($path);
+		if (is_dir($path)) {
+			rmdir($path);
+		}
 	}
 	private static function unlinkFile($path)
 	{
