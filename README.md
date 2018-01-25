@@ -8,7 +8,7 @@ With Composer being used often to build a package to deploy, it makes sense that
 To use the package, you'll need two things. First, on your application you need to make the "clean" command available. First, install the latest version of the `ComposerClean` package:
 
 ```
-composer require enygma/composerclean:dev-master
+composer require enygma/composerclean
 ```
 
 Then you update your `composer.json` file to make it a command:
